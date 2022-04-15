@@ -30,3 +30,11 @@ print(my_list)
 print(my_dict['foo'].get('b'))
 print(my_dict['bar'].get('d'))
 my_dict['bar'].get('d').add(9)
+
+
+#7-10
+print(my_dict['bar'].get('d'))
+my_dict['moo'].get('f').get('lol').remove('o')
+key={'k':['K', 'e', 'k']}
+my_dict['moo'].get('f').update(key)
+print(my)
