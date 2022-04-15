@@ -18,3 +18,9 @@ my_dict = {
         'f': {'Lol': ['L', 'o', 'l']}
     },
 }
+
+#1-3
+print(my_dict['foo'])
+print(my_dict['foo'].get('b'))
+my_list.append(44)
+print(my_list)
