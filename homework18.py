@@ -24,3 +24,9 @@ print(my_dict['foo'])
 print(my_dict['foo'].get('b'))
 my_list.append(44)
 print(my_list)
+
+
+#4-6
+print(my_dict['foo'].get('b'))
+print(my_dict['bar'].get('d'))
+my_dict['bar'].get('d').add(9)
