@@ -18,3 +18,7 @@ my_dict = {
         'f': {'Lol': ['L', 'o', 'l']}
     },
 }
+
+print(my_dict['foo'].get('b'))
+print(my_dict['bar'].get('d'))
+my_dict['bar'].get('d').add(9)
